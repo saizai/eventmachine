@@ -231,11 +231,6 @@ end
 
 module EventMachine
   # @private
-  class Error < Exception; end
-end
-
-module EventMachine
-  # @private
   class Connection
     # @private
     def get_outbound_data_size
